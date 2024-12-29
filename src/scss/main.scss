@@ -1,4 +1,10 @@
-// @use "utilities";
+@use "utils";
+
+:root {
+  font-family: sans-serif;
+}
+
+// @use "utils/variables";
 // @use "base";
 // @use "layout";
 // @use "components";
@@ -12,7 +18,7 @@
 // @use "--examples--/lesson-07/math";
 // @use "--examples--/lesson-07/task-badge";
 // @use "base/fonts";
-// @use "components/task";
+// @use "components";
 
 // Examples lesson 09
 // @use "base/fonts";
@@ -39,5 +45,5 @@
 // @use "--examples--/lesson-13/list";
 
 // Examples lesson 14
-@use "--examples--/lesson-14/map";
-@use "--examples--/lesson-14/alerts";
+// @use "--examples--/lesson-14/map";
+// @use "--examples--/lesson-14/alerts";
